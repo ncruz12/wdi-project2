@@ -20,7 +20,7 @@ Dependcies that will be need to get the project running will be:
 
 Image of my time priority matrix
 
-![](wdi-project2/assets/p_images/timePriorityMatrix.jpg)
+![time matrix](wdi-project2/assets/p_images/timePriorityMatrix.jpg)
 
 ## MVP 
 
@@ -39,7 +39,9 @@ Image of my time priority matrix
 
 ## Wireframes
 
-![](wdi-project2/assets/p_images/wireframe.jpg)
+Image of wireframe
+
+![wireframe](wdi-project2/assets/p_images/wireframe.jpg)
 
 ## User Stories 
 
