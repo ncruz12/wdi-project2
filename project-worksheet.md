@@ -20,7 +20,7 @@ Dependcies that will be need to get the project running will be:
 
 Image of my time priority matrix
 
-![time matrix](wdi-project2/assets/p_images/timePriorityMatrix.jpg)
+![time matrix](https://github.com/ncruz12/wdi-project2/blob/master/assets/p_images/timePriorityMatrix.jpg)
 
 ## MVP 
 
