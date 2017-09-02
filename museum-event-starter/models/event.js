@@ -4,7 +4,7 @@ const Event = {};
 
 Event.findAll = () => {
   return db.query(`
-    SELECT event_id, name_of_event, events.museum_id, description
+    SELECT event_id, name_of_event, museums.museum_name, description
     FROM events INNER JOIN museums
     ON events.museum_id = museums.museum_id
     ORDER BY event_id;
@@ -22,7 +22,7 @@ Event.findById = (id) => {
     FROM events INNER JOIN museums
     ON events.museum_id = museums.museum_id
     WHERE event_id = $1
-    `, id);
+    `, [id]);
 },
 // WILL MUSEUM ID DISPLAY INSTEAD OF MUSEUM NAME ?
 Event.create = (event) => {
@@ -37,7 +37,7 @@ Event.destroy = (id) => {
   return db.none(`
     DELETE FROM events
     WHERE event_id = $1
-    `,id);
+    `,[id]);
 }
 
 module.exports = Event;

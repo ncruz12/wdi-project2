@@ -1,0 +1,16 @@
+<%# This is the view that will render when we visit /events %>
+
+<% include ../partials/header.ejs %>
+
+<a href="/events/add">Add an event</a>
+  <% for (let event of data) { %>
+    <div class='event'>
+      <p><%= event.name_of_event %></p>
+      <a href='/events/<%= event.id%>'>View more details</a>
+      <form action="/events/<%= event.id %>?_method=Delete " method="Post">
+        <input type="Submit" value="Delete"/>
+      </form>
+    </div>
+  <% } %>
+
+<% include ../partials/footer.ejs %>
