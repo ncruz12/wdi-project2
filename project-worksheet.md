@@ -41,7 +41,7 @@ Image of my time priority matrix
 
 Image of wireframe
 
-![wireframe](wdi-project2/assets/p_images/wireframe.jpg)
+![wireframe](https://github.com/ncruz12/wdi-project2/blob/master/assets/p_images/wireframe.jpg)
 
 ## User Stories 
 
