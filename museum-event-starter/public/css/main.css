@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#page-header {
+  background: #ff5a5f;
+  margin: 0 50px 30px;
+}
+#page-header h1 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  margin: auto;
+  padding: 15px;
+}
+
+#page-header nav li a:hover {
+  color: #ffe6e6;
+}
+
+.home-screen {
+  border: 2px solid #808080;
+  text-align: center;
+  margin: 100px 300px 350px 300px;;
+  padding: 50px;
+}
+
+.home-screen p {
+  font-family: Georgia;
+  padding-bottom: 15px;
+}
+
+.home-screen a {
+  text-decoration: none;
+  font-family: Georgia;
+  margin: 10px;
+  padding: 15px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin: 30px;
+}
+
+ul {
+  text-align: right;
+}
+
+#add {
+  text-align: center;
+}
+#add a {
+  font-family: Georgia;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #808080;
+  padding: 8px;
+}
+
+.event {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.event p {
+  font-family: Georgia;
+  font-size: 18px;
+}
+
+footer {
+  text-transform: uppercase;
+  background-color: #fbfbfb;
+  position: relative;
+  height: 100px;
+  padding: 0 30px;
+}
+
+.copyright {
+  font-family: sans-serif;
+  float: left;
+}
+
+.message {
+  font-family: sans-serif;
+  float: right;
+  color: #ff5a5f;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+}
