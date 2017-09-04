@@ -7,7 +7,7 @@ eventController.index = (req, res) => {
     .then(events => {
       // console.log("this is events ", events)
       res.render('events/event-index', {
-        // message:'Displaying ALL events',
+        message:'Displaying ALL events',
         data: events,
         logoName: 'Museum Events'
         });

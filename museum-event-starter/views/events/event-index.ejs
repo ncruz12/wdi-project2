@@ -2,7 +2,6 @@
 
 <% include ../partials/header.ejs %>
 
-<a href="/events/add">Add an event</a>
   <% for (let event of data) { %>
     <div class='event'>
       <p><%= event.name_of_event %></p>
@@ -12,5 +11,9 @@
       </form>
     </div>
   <% } %>
+
+  <div id="add">
+    <a href="/events/add">Add an event</a>
+  </div>
 
 <% include ../partials/footer.ejs %>
