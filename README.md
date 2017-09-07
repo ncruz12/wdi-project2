@@ -3,10 +3,12 @@
 ## Description
 
 This web based CRUD application shows events that take place in Museums. It lists the events
-and when clicked on shows the name of the museum and a brief description. User can add an event 
-of their choice and can delete events as well.
+and when clicked on shows the name of the museum and a brief description. User can view events and add an event.
+
 
 ## Wireframes and User Stories 
+
+![time matrix](https://github.com/ncruz12/wdi-project2/blob/master/assets/p_images/timePriorityMatrix.jpg)
 
 * User is in home page, clicks on VIEW MUSEMS button and will be redirected to events page.
 * User clicks on any event of her/his interest which will redirect them to view mor information.
@@ -23,5 +25,5 @@ of their choice and can delete events as well.
 
 ## Improvements/ Adjustments
 
-I'll need to get the individual event to display more information when clicked on. I plan on adding an API that allows the user to view events that are coming up in that specific museum. The name of the event, date, and description will display. I also plan on adding a picture of the museum next the name of the event. 
+I'll need to get the individual event to display more information when clicked on. I plan on adding an API that allows the user to view events that are coming up in that specific museum. The name of the event, date, and description will display. I also plan on adding a picture of the museum next to the name of the event. 
 
