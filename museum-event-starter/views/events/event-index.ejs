@@ -5,8 +5,8 @@
   <% for (let event of data) { %>
     <div class='event'>
       <p><%= event.name_of_event %></p>
-      <a href='/events/<%= event.id%>'>View more details</a>
-      <form action="/events/<%= event.id %>?_method=Delete " method="Post">
+      <a href='/events/<%= event.event_id %>'>View more details</a>
+      <form action="/events/<%= event.event_id %>?_method=Delete" method="Post">
         <input type="Submit" value="Delete"/>
       </form>
     </div>
