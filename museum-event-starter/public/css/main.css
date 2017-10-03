@@ -71,6 +71,14 @@ ul {
   flex-direction: column;
 }
 
+.event h3 {
+  font-size: 25px;
+}
+
+.event h2 {
+  font-size: 18px;
+}
+
 .event p {
   font-family: Georgia;
   font-size: 18px;
@@ -79,7 +87,10 @@ ul {
 footer {
   text-transform: uppercase;
   background-color: #fbfbfb;
-  position: relative;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   height: 100px;
   padding: 0 30px;
 }

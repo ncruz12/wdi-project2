@@ -2,8 +2,7 @@
 
 ## Description
 
-This web based CRUD application shows events that take place in Museums. It lists the events
-and when clicked on shows the name of the museum and a brief description. User can view events and add an event.
+This web based CRUD application lets users keep up with events that will take place in Museums. It allows them to view all their events, a single event, it also allows them to add and delete the events they have. When user clicks on a specific event the name of the museum and brief description is displayed. 
 
 
 ## Wireframes and User Stories 
@@ -26,5 +25,5 @@ and when clicked on shows the name of the museum and a brief description. User c
 
 ## Improvements/ Adjustments
 
-I'll need to get the individual event to display more information when clicked on. I plan on adding an API that allows the user to view events that are coming up in that specific museum. The name of the event, date, and description will display. I also plan on adding a picture of the museum next to the name of the event. 
+I plan on adding an API that allows the user to view events that are coming up in that specific museum. The name of the event, date, and description will display. I also plan on adding a picture of the museum next to the name of the event. I also need to get the update functionality to work on the page. 
 
