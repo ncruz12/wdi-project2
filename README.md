@@ -10,10 +10,11 @@ and when clicked on shows the name of the museum and a brief description. User c
 
 ![time matrix](https://github.com/ncruz12/wdi-project2/blob/master/assets/p_images/timePriorityMatrix.jpg)
 
-* User is in home page, clicks on VIEW MUSEMS button and will be redirected to events page.
-* User clicks on any event of her/his interest which will redirect them to view mor information.
-* The user will be viewing details about the event, such as the name of the event, location, and a description.
-*The user will also be able to ADD an event or DELETE one. 
+* User is in home page and can click on VIEW MUSEMS button or Events tag on the navigation bar and will be redirected to Events page.
+* User will be able to see a list of all the events.
+* User clicks on any event of their interest which will redirect them to view more information.
+* The details about the event that are displayed are the name of the museum and a description of the event.
+* The user is also able to ADD an event or DELETE one. 
 
 ## Technologies Used
 
