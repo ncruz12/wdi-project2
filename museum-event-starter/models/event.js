@@ -33,6 +33,17 @@ Event.create = (event) => {
     RETURNING *
     `, [event.museum_id, event.name_of_event, event.description]);
 },
+Event.update = (event, id) => {
+  return db.one(`
+    UPDATE events SET
+    museum_id = $1,
+    name_of_event = $2,
+    description =  $3
+    WHERE id = $4
+    RETURNING *
+    `, [event.museum_id, event.name_of_event, event.description, id]);
+}
+
 Event.destroy = (id) => {
   return db.none(`
     DELETE FROM events

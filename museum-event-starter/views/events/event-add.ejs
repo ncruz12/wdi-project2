@@ -1,7 +1,12 @@
 
 
 <form method='POST' action='/events'>
-  <input name='museum_id' type='text' placeholder='museum name' />
+  <label for='museum_id'> Pick a Museum
+    <select name='museum_id' type='text'>
+      <option value='1'>American Museum of Natural History</option>
+      <option value='2'>Brooklyn Museum</option>
+    </select>
+  </label></br>
   <input name='name_of_event' type='text' placeholder='name of event' />
   <input name='description' type='text' placeholder='description'>
   <input type='submit' value='Submit!' />

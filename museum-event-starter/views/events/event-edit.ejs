@@ -1,0 +1,17 @@
+
+
+<div class="event">
+  <h3><%= data.museum_id %></h3>
+  <h3><%= data.name_of_event %></h3>
+  <h3><%= data.description %></h3>
+  <form action='/events/<%= event.event_id %>?_method=PUT' method='post'>
+    <imput name='id' type='hidden' value='<%= event.event_id %>'
+    <input name="museum_id" type="text" placeholder="<%= data.museum_id %>"/>
+    <input name="name_of_event" type="text" placeholder="<%= data.name_of_event %>"/>
+    <input name="description" type="text" placeholder="<%= data.description %>"/>
+    <input type='Submit' value='Edit'/>
+  </form>
+</div>
+
+
+<% include ../partials/bottom.ejs %>

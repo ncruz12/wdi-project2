@@ -20,22 +20,37 @@ body {
 }
 
 .home-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: auto;
   border: 2px solid #808080;
   text-align: center;
-  margin: 100px 300px 350px 300px;;
+  /*margin: 100px 300px 350px 300px;;*/
   padding: 50px;
+}
+
+.home-screen button {
+  border: 1px solid #808080;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 17px;
+
 }
 
 .home-screen p {
   font-family: Georgia;
+  font-size: 36px;
   padding-bottom: 15px;
 }
 
 .home-screen a {
   text-decoration: none;
   font-family: Georgia;
+  color: black;
   margin: 10px;
-  padding: 15px;
+  /*padding: 15px;*/
 }
 
 li {

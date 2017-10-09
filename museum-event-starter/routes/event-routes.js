@@ -12,7 +12,10 @@ eventRoutes.get('/add', (req, res) => {
   res.render('events/event-add');
 });
 
+eventRoutes.get('/:id/edit', eventController.edit); // seperate route and method in our controller for editing the event
+
 eventRoutes.get('/:id', eventController.show);
+eventRoutes.put('/:id', eventController.update); // inserted for update route
 eventRoutes.delete('/:id', eventController.delete);
 
 module.exports = eventRoutes;

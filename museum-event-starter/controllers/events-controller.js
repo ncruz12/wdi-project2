@@ -48,6 +48,30 @@ eventController.create = (req, res) => {
   })
 };
 
+eventController.edit = (req, res) => {
+  Event.findById(req.params.id)
+    .then(event => {
+      res.render('events/event-edit', {
+        data: event,
+      });
+    }).catch(err => {
+      res.status(400).json(err);
+    });
+};
+
+eventController.update = (req, res) => {
+  Event.update({
+    museum_id: req.body.museum_id,
+    name_of_event: req.body.name_of_event,
+    description: req.body.description,
+  }, req.params.id).then(event => {
+    res.redirect('/events')
+  }).catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  })
+};
+
 eventController.delete = (req, res) => {
   Event.destroy(req.params.id)
     .then(() => {
